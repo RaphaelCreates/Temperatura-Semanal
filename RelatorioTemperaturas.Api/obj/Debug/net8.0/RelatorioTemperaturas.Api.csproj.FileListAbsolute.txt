@@ -31,3 +31,4 @@ C:\Users\Raphael\OneDrive\Desktop\Prev_Temp\RelatorioTemperaturas.Api\obj\Debug\
 C:\Users\Raphael\OneDrive\Desktop\Prev_Temp\RelatorioTemperaturas.Api\obj\Debug\net8.0\RelatorioTemperaturas.Api.pdb
 C:\Users\Raphael\OneDrive\Desktop\Prev_Temp\RelatorioTemperaturas.Api\obj\Debug\net8.0\RelatorioTemperaturas.Api.genruntimeconfig.cache
 C:\Users\Raphael\OneDrive\Desktop\Prev_Temp\RelatorioTemperaturas.Api\obj\Debug\net8.0\ref\RelatorioTemperaturas.Api.dll
+C:\Users\Raphael\OneDrive\Desktop\Prev_Temp\RelatorioTemperaturas.Api\obj\Debug\net8.0\RelatorioTemperaturas.Api.sourcelink.json
