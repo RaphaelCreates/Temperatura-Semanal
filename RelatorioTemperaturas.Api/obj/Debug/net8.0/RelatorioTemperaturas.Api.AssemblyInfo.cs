@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RelatorioTemperaturas.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+704d04be15b0b9dc536670b182861af064977f1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5befb6cf293d102984cd721bc16ddb3a76674802")]
 [assembly: System.Reflection.AssemblyProductAttribute("RelatorioTemperaturas.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RelatorioTemperaturas.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
