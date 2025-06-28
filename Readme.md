@@ -1,7 +1,7 @@
 # Relatório Semanal de Temperaturas
 
 ![Status do Projeto](https://img.shields.io/badge/status-Em%20Desenvolvimento-blue)
-![Última Atualização](https://img.shields.io/badge/atualizado-2025--06--14-lightgrey)
+![Última Atualização](https://img.shields.io/badge/atualizado-2025--06--20-lightgrey)
 
 ## 🚀 Visão Geral do Projeto
 
