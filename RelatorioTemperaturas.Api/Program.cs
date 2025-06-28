@@ -1,5 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UserUrls("hhtp://0.0.0.0:8080"); //configura o host para escutar em todas as interfaces de rede na porta 8080
+
 //configuração de serviços
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
