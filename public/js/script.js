@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiUrl = 'http://localhost:5279/api/temperatures/report'; 
+    const apiUrl = 'http://34.172.144.82:8080/api/temperatures/report'; 
 
     fetch(apiUrl)
         .then(response => { 
