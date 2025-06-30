@@ -1,0 +1,18 @@
+steps:
+# Publicar o Backend C#
+
+- name: 'gcr.io/cloud-builders/dotnet' # Builder oficial para .NET
+  args: ['publish', 'RelatorioTemperaturas.Api/RelatorioTemperaturas.Api.csproj', '-c', 'Release', '-o', './RelatorioTemperaturas.Api/publish_build']
+  
+# Copiar os arquivos publicados do Backend para um bucket intermediário no GCS
+
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', '-r', './RelatorioTemperaturas.Api/publish_build/', 'gs://seu-bucket-de-artifacts/']
+ 
+
+# Passo 3: Enviar o Frontend para o Bucket de Site Estático (se ele estiver no mesmo repositório)
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', '-r', 'public/', 'gs://pastaweb/']
+  # 'public/': Sua pasta de frontend.
+  # 'gs://pastaweb/': SEU BUCKET ONDE O SITE ESTÁ HOSPEDADO.
+
