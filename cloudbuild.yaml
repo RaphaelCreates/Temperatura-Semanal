@@ -1,5 +1,5 @@
 steps:
-# Publicar o Backend C#
+# Publicar o Backend
 
 - name: 'gcr.io/cloud-builders/dotnet' # Builder oficial para .NET
   args: ['publish', 'RelatorioTemperaturas.Api/RelatorioTemperaturas.Api.csproj', '-c', 'Release', '-o', './RelatorioTemperaturas.Api/publish_build']
