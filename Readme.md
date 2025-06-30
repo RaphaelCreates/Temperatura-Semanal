@@ -30,3 +30,5 @@ As funcionalidades principais que serão implementadas incluem:
     * C# (Lógica de Negócios)
     * ASP.NET Core Web API (Criação da API RESTful)
 
+## status
+  **Gatilho do Cloud Build configurado com sucesso!
